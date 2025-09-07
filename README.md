@@ -1,4 +1,5 @@
-<img width="1000" height="239" alt="image" src="https://github.com/user-attachments/assets/4cabfabb-4a94-4c70-a286-f723275e6dc0" />
+<img width="950" height="226" alt="image" src="https://github.com/user-attachments/assets/4cabfabb-4a94-4c70-a286-f723275e6dc0" />
+
 
 The Jira Zephyr Cycles Exporter is a Python utility that retrieves test cycle data from Zephyr for Jira and exports it into a structured CSV file.
 
@@ -6,18 +7,18 @@ It connects to the Jira Zephyr API, fetches cycle summaries, including execution
 
 Follow these steps to configure and run the Jira Zephyr Cycles Exporter:
 1. Install Requirements
-This project requires Python 3.8+ and the requests library.
-pip install requests
+- Python 3.8+
+- requests
 
-2. Configure Authentication
+3. Configure Authentication
 Open config.py and fill in your Jira username and password:
 AUTH = ("your_username", "your_password")
 
-3. Set Your Jira Base URL
+4. Set Your Jira Base URL
 In run.py, set the base URL of your Jira instance:
 BASE_URL = "https://yourcompany.atlassian.net"
 
-4. Get Project and Version IDs
+5. Get Project and Version IDs
 - Open Jira in your browser.
 - Navigate to the Zephyr test cycle you want to export.
 - From the URL or network requests, find the projectId and versionId.
