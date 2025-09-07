@@ -10,17 +10,17 @@ Follow these steps to configure and run the Jira Zephyr Cycles Exporter:
 - Python 3.8+
 - requests
 
-3. Configure Authentication
+2. Configure Authentication
 
 Open config.py and fill in your Jira username and password:
 AUTH = ("your_username", "your_password")
 
-4. Set Your Jira Base URL
+3. Set Your Jira Base URL
 
 In run.py, set the base URL of your Jira instance:
 BASE_URL = "https://yourcompany.atlassian.net"
 
-7. Get Project and Version IDs
+4. Get Project and Version IDs
 - Open Jira in your browser.
 - Navigate to the Zephyr test cycle you want to export.
 - From the URL or network requests, find the projectId and versionId.
