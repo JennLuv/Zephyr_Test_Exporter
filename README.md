@@ -1,4 +1,4 @@
-<img width="950" height="226" alt="image" src="https://github.com/user-attachments/assets/4cabfabb-4a94-4c70-a286-f723275e6dc0" />
+<img width="980" height="234" alt="image" src="https://github.com/user-attachments/assets/4cabfabb-4a94-4c70-a286-f723275e6dc0" />
 
 
 The Jira Zephyr Cycles Exporter is a Python utility that retrieves test cycle data from Zephyr for Jira and exports it into a structured CSV file.
