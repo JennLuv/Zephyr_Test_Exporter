@@ -12,13 +12,13 @@ Follow these steps to configure and run the Jira Zephyr Cycles Exporter:
 
 2. Configure Authentication
 
-Open config.py and fill in your Jira username and password:
-AUTH = ("your_username", "your_password")
+- Open config.py and fill in your Jira username and password:
+- AUTH = ("your_username", "your_password")
 
 3. Set Your Jira Base URL
 
-In run.py, set the base URL of your Jira instance:
-BASE_URL = "https://yourcompany.atlassian.net"
+- In run.py, set the base URL of your Jira instance:
+- BASE_URL = "https://yourcompany.atlassian.net"
 
 4. Get Project and Version IDs
 - Open Jira in your browser.
@@ -31,9 +31,9 @@ project_version_map = {
 
 5. Run the Exporter
 
-From the project root, run:
-python run.py
+- From the project root, run:
+- python run.py
 
 6. View Results in Excel
 
-The script will generate a CSV file (default: Test_output.csv) that you can open directly in Excel for analysis.
+- The script will generate a CSV file (default: Test_output.csv) that you can open directly in Excel for analysis.
